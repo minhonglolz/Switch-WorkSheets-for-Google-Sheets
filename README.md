@@ -15,7 +15,7 @@ Easily switch your worksheet 📁
 
 ### Basic
 
--   Press <kbd>⌘</kbd>+<kbd>k</kbd> (Mac) / <kbd>Ctrl</kbd>+<kbd>k</kbd> (Windows & Linux) to open kbar.
+-   Press <kbd>⌘</kbd>+<kbd>k</kbd> (Mac) / <kbd>Ctrl</kbd>+<kbd>e</kbd> (Windows & Linux) to open kbar.
 -   Search for the one you want to switch worksheet
 
 ## License
