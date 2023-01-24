@@ -1,6 +1,8 @@
 # dependencies
 /node_modules
 /dist
-
 # log
 yarn-error.log
+
+# build
+dist.zip
