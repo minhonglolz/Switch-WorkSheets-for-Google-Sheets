@@ -4,9 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite build --watch && cp manifest.json dist/",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build-extension": "yarn build && cp manifest.json dist/"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.48.2",
@@ -22,8 +23,11 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "immer": "^9.0.18",
     "kbar": "^0.1.0-beta.39",
+    "path": "^0.12.7",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "url": "^0.11.0",
+    "vite-plugin-static-copy": "^0.13.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",

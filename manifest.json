@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Google Sheets Bar",
+  "description": "Easily switch your tabs 📁",
+  "version": "0.0.1",
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/spreadsheets/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["icon-128.png", "icon-32.png"],
+      "matches": []
+    }
+  ]
+}
