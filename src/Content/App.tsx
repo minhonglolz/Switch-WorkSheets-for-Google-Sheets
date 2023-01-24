@@ -5,12 +5,13 @@ import {
   KBarPortal,
   KBarPositioner,
   KBarAnimator,
-  KBarSearch,
+
   Action,
   createAction,
 } from 'kbar'
 import RenderResults from '../Components/RenderResults'
 import ActionHandler from '../Components/ActionHandler'
+import { KBarSearch } from '../Components/KBarSearch'
 
 const animatorStyle = {
   maxWidth: '600px',
@@ -18,10 +19,11 @@ const animatorStyle = {
   borderRadius: '8px',
   overflow: 'hidden',
   background: '#fff',
+  boxShadow: '0px 6px 20px rgb(0 0 0 / 20%)',
 }
 
 const searchStyle = {
-  padding: '12px 16px',
+  padding: '16px',
   fontFamily: '\'Source Code Pro\', monospace',
   fontSize: '16px',
   width: '100%',

@@ -1,10 +1,10 @@
-<img src="src/assets/img/icon-128.png" width="64"/>
+<img src="src/assets/img/icon-128.png" width="128"/>
 
-## Google Sheets Bar
-Easily switch your worksheet 📁
+## Switch WorkSheets for Google Sheets
+當你的工作表太多時，使用它！
 
 ## Features
-- Switch GoogleSheets worksheet
+- Switch Google Sheets Worksheet
 
 
 ### Built With
@@ -15,7 +15,7 @@ Easily switch your worksheet 📁
 
 ### Basic
 
--   Press <kbd>⌘</kbd>+<kbd>k</kbd> (Mac) / <kbd>Ctrl</kbd>+<kbd>e</kbd> (Windows & Linux) to open kbar.
+-   Press <kbd>⌘</kbd>+<kbd>e</kbd> (Mac) / <kbd>Ctrl</kbd>+<kbd>e</kbd> (Windows & Linux) to open kbar.
 -   Search for the one you want to switch worksheet
 
 ## License

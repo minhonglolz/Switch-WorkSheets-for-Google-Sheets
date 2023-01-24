@@ -13,7 +13,7 @@ function ResultItem ({ action, active }: Props,
       ref={ref}
       style={{
         margin: '2px 8px',
-        padding: '8px 8px',
+        padding: '12px 16px',
         color: active ? 'white' : 'black',
         background: active ? '#ff641e' : '#fff',
         borderRadius: '8px',
