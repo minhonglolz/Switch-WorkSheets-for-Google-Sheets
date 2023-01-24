@@ -1,7 +1,7 @@
 <img src="src/assets/img/icon-128.png" width="64"/>
 
 ## Google Sheets Bar
-Easily switch your tabs 📁
+Easily switch your worksheet 📁
 
 ## Features
 - Switch GoogleSheets worksheet

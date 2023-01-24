@@ -45,7 +45,7 @@ function App () {
   }
 
   return (
-    <KBarProvider actions={actions} options={{ callbacks: { onOpen: handleOpen } }}>
+    <KBarProvider actions={actions} options={{ callbacks: { onOpen: handleOpen }, toggleShortcut: '$mod+e' }}>
       <KBarPortal>
         <KBarPositioner>
           <KBarAnimator style={animatorStyle}>
