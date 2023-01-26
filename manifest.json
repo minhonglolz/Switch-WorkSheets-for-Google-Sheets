@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Switch WorkSheets for Google Sheets",
+  "name": "Google Sheets Bar",
   "description": "當你的工作表太多時，使用它！",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "icons": {
     "128": "icon-128.png"
   },
